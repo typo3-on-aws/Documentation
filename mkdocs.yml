@@ -1,0 +1,27 @@
+site_name: TYPO3-on-AWS
+site_url: https://t3rrific.com/
+docs_dir: src/
+site_dir: docs/
+plugins: []
+
+theme:
+    name: null
+    custom_dir: theme/
+    highlightjs: false
+    #hljs_style: github
+
+markdown_extensions:
+    - attr_list
+
+extra_css:
+    #- https://www.typo3-on-aws.org/assets/css/website.css
+    #- https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/themes/prism.min.css
+    - css/prism.css
+
+extra_javascript:
+    #- https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/components/prism-core.min.js
+    #- https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/plugins/autoloader/prism-autoloader.min.js
+    - js/prism.js
+
+extra:
+    version: 1234
