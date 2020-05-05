@@ -11,4 +11,4 @@ The following TYPO3 versions are currently available as ready-to-use [machine im
 * TYPO3 version 7 LTS ([more details](typo3v7.md))
 * TYPO3 version 8 LTS ([more details](typo3v8.md))
 * TYPO3 version 9 LTS ([more details](typo3v9.md))
-* TYPO3 version 10, sprint release ([more details](typo3v10.md))
+* TYPO3 version 10 LTS ([more details](typo3v10.md))
