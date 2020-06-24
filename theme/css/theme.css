@@ -106,20 +106,28 @@ body#typo3-on-aws.documentation div.content ul li {
 
 body#typo3-on-aws.documentation div.content table {
 	width: 100%;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 body#typo3-on-aws.documentation div.content table tr {
 }
 
-body#typo3-on-aws.documentation div.content table tr:nth-child(odd) {
+body#typo3-on-aws.documentation div.content table thead tr {
+	background: #ffffff;
+	border-bottom: 1px solid black;
+}
+
+body#typo3-on-aws.documentation div.content table tbody tr:nth-child(odd) {
 	background: #f0f0f0;
 }
 
-body#typo3-on-aws.documentation div.content table tr:nth-child(even) {
+body#typo3-on-aws.documentation div.content table tbody tr:nth-child(even) {
 	background: #ffffff;
 }
 
-body#typo3-on-aws.documentation div.content table td {
+body#typo3-on-aws.documentation div.content table thead td,
+body#typo3-on-aws.documentation div.content table tbody td {
 	padding-right: 0.6rem;
 	width: 1%;
 }
