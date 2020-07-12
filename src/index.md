@@ -29,7 +29,7 @@ Welcome to the TYPO3-on-AWS documentation. Before you deep dive into all the exc
                 </div>
                 <div class="card-footer bg-white text-center">
                     <a href="machine-images/" class="btn btn-orange btn-sm font-weight-bold rounded">
-                        more...
+                        Read more
                     </a>
                 </div>
             </div>
@@ -49,7 +49,7 @@ Welcome to the TYPO3-on-AWS documentation. Before you deep dive into all the exc
                 </div>
                 <div class="card-footer bg-white text-center">
                     <a href="getting-started/" class="btn btn-orange btn-sm font-weight-bold rounded">
-                        more...
+                        Read more
                     </a>
                 </div>
             </div>
@@ -69,7 +69,7 @@ Welcome to the TYPO3-on-AWS documentation. Before you deep dive into all the exc
                 </div>
                 <div class="card-footer bg-white text-center">
                     <a href="how-to/" class="btn btn-orange btn-sm font-weight-bold rounded">
-                        more...
+                        Read more
                     </a>
                 </div>
             </div>
@@ -91,7 +91,7 @@ Welcome to the TYPO3-on-AWS documentation. Before you deep dive into all the exc
                 </div>
                 <div class="card-footer bg-white text-center">
                     <a href="security/" class="btn btn-orange btn-sm font-weight-bold rounded">
-                        more...
+                        Read more
                     </a>
                 </div>
             </div>
@@ -108,7 +108,7 @@ Welcome to the TYPO3-on-AWS documentation. Before you deep dive into all the exc
                 </div>
                 <div class="card-footer bg-white text-center">
                     <a href="faq/" class="btn btn-orange btn-sm font-weight-bold rounded">
-                        more...
+                        Read more
                     </a>
                 </div>
             </div>
@@ -125,7 +125,7 @@ Welcome to the TYPO3-on-AWS documentation. Before you deep dive into all the exc
                 </div>
                 <div class="card-footer bg-white text-center">
                     <a href="miscellaneous/contribute/" class="btn btn-orange btn-sm font-weight-bold rounded">
-                        more...
+                        Read more
                     </a>
                 </div>
             </div>
