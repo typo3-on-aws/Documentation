@@ -22,3 +22,7 @@ Combine the [EC2 instance](../miscellaneous/glossary.md#ec2instance){.fa-icon .f
 * Learn how to [set up Amazon Aurora](set-up-typo3-and-amazon-aurora.md) as a database engine for TYPO3.
 * Learn how to [configure TYPO3 and Amazon CloudFront](configure-typo3-and-cloudfront-cdn.md).
 * Learn how to [write access log files to Amazon CloudWatch](write-access-logs-to-cloudwatch.md).
+
+## Miscellaneous
+
+* Learn how to [mount an AWS S3 Bucket](mount-an-aws-s3-bucket.md).
