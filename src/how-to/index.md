@@ -8,6 +8,7 @@ The TYPO3-on-AWS [machine images](../miscellaneous/glossary.md#machineimages){.f
 ## Easy
 
 * Learn how to [update Debian GNU/Linux](update-debian-linux.md).
+* Learn how to [update TYPO3 and TYPO3 extensions](update-typo3-cms.md).
 * Learn how to [configure the Security Group](configure-security-group.md) (firewall).
 
 ## Intermediate
