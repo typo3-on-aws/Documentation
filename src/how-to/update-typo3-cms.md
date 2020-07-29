@@ -86,4 +86,4 @@ You can also use the `--dry-run` option to only simulate the command without act
 
 ## Further Reading
 
-See official [TYPO3 Installation and Upgrade Guide](https://docs.typo3.org/m/typo3/guide-installation/master/en-us/) provides more details on how to update a TYPO3 instance and/or extensions.
+See official [TYPO3 Installation and Upgrade Guide](https://docs.typo3.org/m/typo3/guide-installation/master/en-us/){.fa-icon .fa-right-external-link-alt} provides more details on how to update a TYPO3 instance and/or extensions.
