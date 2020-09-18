@@ -22,3 +22,7 @@ Once you have an account, you are ready to launch an [EC2 instance](../miscellan
 
 * Learn how to [launch a system](launch.md).
 * Learn how to [access the instance](access.md) and TYPO3.
+
+## What's Next
+
+* Check out the [How-to section](../how-to/) to learn more about TYPO3-on-AWS.
