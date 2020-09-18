@@ -5,7 +5,7 @@ subtitle: The First Step
 
 ## Overview
 
-Only 3 simple steps are required to launch a TYPO3 system on AWS and it usually takes less then 5 minutes (assuming you already have an [AWS account](https://portal.aws.amazon.com/billing/signup){.fa-icon .fa-right-external-link-alt}):
+Only three simple steps are required to launch a TYPO3 system on AWS and it usually takes less than 5 minutes (assuming you already have an [AWS account](https://portal.aws.amazon.com/billing/signup){.fa-icon .fa-right-external-link-alt}):
 
 * Go to the [AWS Marketplace](https://aws.amazon.com/marketplace/seller-profile?id=3c5e5f3c-d60e-4405-a9ca-aae8abfa3e2b){.fa-icon .fa-right-external-link-alt}.
 * Choose the characteristics of the TYPO3-on-AWS machine image you want to use.
@@ -25,9 +25,13 @@ Before you start, ensure you meet the following requirements:
 
 The [AWS Marketplace](https://aws.amazon.com/marketplace/seller-profile?id=3c5e5f3c-d60e-4405-a9ca-aae8abfa3e2b){.fa-icon .fa-right-external-link-alt} features thousands of machine images (virtual servers) which you can start with a click of a few buttons. This requires an AWS account (see see [AWS Getting Started Resource Center](https://aws.amazon.com/getting-started/){.fa-icon .fa-right-external-link-alt} to learn how to sign up for a free AWS account).
 
-Go the the [AWS Marketplace](https://aws.amazon.com/marketplace/seller-profile?id=3c5e5f3c-d60e-4405-a9ca-aae8abfa3e2b){.fa-icon .fa-right-external-link-alt} and search for "`schams.net`" (or click the button below) to get an overview of the TYPO3-on-AWS images available. They are labelled as "`sold by schams.net`" but given that the price is $0.- the truth is that the usage of the software is free of any charge (AWS hourly usage fees apply though, see [costs](introduction.md#costs) for further details).
+Go to the [AWS Marketplace](https://aws.amazon.com/marketplace/seller-profile?id=3c5e5f3c-d60e-4405-a9ca-aae8abfa3e2b){.fa-icon .fa-right-external-link-alt} and search for "`schams.net`" (or follow the link) to get an overview of the TYPO3-on-AWS images available. They are labelled as "`sold by schams.net`" but given that the price is $0.- the usage of the software is free of any charge (AWS hourly usage fees apply though, see [costs](introduction.md#costs) for further details).
 
-Our machine images usually feature the latest TYPO3 version and a well-known, modern, stable, open-source and free Linux operating system: Debian GNU/Linux. There are alternative TYPO3 machine images available from other vendors/sellers and if our offers do not meet your requirements, you could consider searching for "`typo3`" and choose one of the other images instead.
+Our machine images usually feature the latest TYPO3 version and a well-known, modern, stable, open-source, and free Linux operating system: Debian GNU/Linux. There are alternative TYPO3 machine images available from other vendors/sellers and if our offers do not meet your requirements, you could consider to search for "`typo3`" and choose one of the other images instead.
+
+> ### Warning {.warning .warning-headline .warning-icon}
+>
+> Please note that we can not support machine images from other vendors/sellers. We recommend to compare costs and support options when you consider alternative products.
 
 ## Choose/Configure Machine Image
 
@@ -68,7 +72,7 @@ Assuming, you can access the site in your browser, well done! You just launched 
 
 ## What's Next?
 
-First of all, please note that hourly usage fees may apply when instances are running. These fees are AWS costs and we do not control them. Please see [costs](introduction.md#costs) and [licenses](introduction.md#licenses) for further details. If you do not use the instance, simply shut it down (**stop** the EC2 instance). Changes you made (e.g. to your TYPO3 website) remain and you can re-start the instance later and continue working with it.
+First of all, please note that hourly usage fees may apply when instances are running. These fees are AWS costs and we do not control them. Please see [costs](introduction.md#costs) and [licenses](introduction.md#licenses) for further details. If you do not use the instance, simply shut it down (**stop** the EC2 instance). Changes you make (e.g. to your TYPO3 website) remain and you can re-start the instance later and continue working with it.
 
 If you do not need the instance anymore you can **terminate** it. This destroys the instance and all data stored on it. Be careful though: terminating an instance is an irreversible action.
 
