@@ -7,7 +7,9 @@ typo3versions:
 
 ## History
 
-The TYPO3 CMS 8.x machine images are listed at the AWS Marketplace under product ID [B01DO8DF2E](https://aws.amazon.com/marketplace/pp/B01DO8DF2E). The first machine image was published in April 2016 and features [TYPO3 CMS version 8.0.0](https://get.typo3.org/release-notes/8.0.0){.fa-icon .fa-right-external-link-alt}. Subsequent releases include all TYPO3 sprint releases including the long-term support version **TYPO3 v8 LTS** (also known as version 8.7).
+The TYPO3 CMS 8.x machine images are listed at the AWS Marketplace under product ID [B01DO8DF2E](https://aws.amazon.com/marketplace/pp/B01DO8DF2E). We published the first TYPO3 v8 machine image in April 2016. Subsequent releases include all TYPO3 sprint releases as well as the long-term support version **TYPO3 v8 LTS** (also known as version 8.7).
+
+TYPO3 CMS 8.x reached its end-of-life in March 2020. Extended support can be obtained from the [TYPO3 GmbH](https://typo3.com){.fa-icon .fa-right-external-link-alt}.
 
 ## TYPO3
 
@@ -21,7 +23,7 @@ According to the [official release announcement](https://typo3.org/cms/release-n
 * The usage of [Doctrine DBAL](http://www.doctrine-project.org/projects/dbal.html){.fa-icon .fa-right-external-link-alt}. for database abstraction.
 * New concepts for multiple languages and translations.
 
-The LTS-version was released on Tuesday, 4 April 2017. It receives maintenance and bug fixes for 1.5 years and security updates for at least three years until April 2020.
+The LTS-version was released on Tuesday, 4 April 2017. It received maintenance and bug fixes for 1.5 years and security updates for three years until April 2020.
 
 ## Server and Services
 
