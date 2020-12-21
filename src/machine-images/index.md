@@ -12,3 +12,4 @@ The following TYPO3 versions are currently available as ready-to-use [machine im
 * TYPO3 version 8 LTS ([more details](typo3v8.md)), end-of-life since March 2020.
 * TYPO3 version 9 LTS ([more details](typo3v9.md))
 * TYPO3 version 10 LTS ([more details](typo3v10.md))
+* TYPO3 version 11 ([more details](typo3v11.md)), sprint releases
