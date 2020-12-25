@@ -7,7 +7,7 @@ typo3versions:
 
 ## History
 
-The TYPO3 v11.x machine images are listed at the AWS Marketplace under product ID [xxxxxxxxxx](https://aws.amazon.com/marketplace/pp/xxxxxxxxxx). We published the first machine image in December 2020.
+The TYPO3 v11.x machine images are listed at the AWS Marketplace under product ID [B08R9BXG5Y](https://aws.amazon.com/marketplace/pp/B08R9BXG5Y). We published the first machine image in December 2020.
 
 ## TYPO3
 
