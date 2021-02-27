@@ -14,6 +14,7 @@ The TYPO3-on-AWS [machine images](../miscellaneous/glossary.md#machineimages){.f
 ## Intermediate
 
 * Learn how to [add swap space](add-swap-space.md) to the EC2 instance.
+* Learn how to [access the local MySQL/MariaDB database server](access-local-database-server.md).
 * Learn how to [install the MariaDB database server](install-mariadb-server.md).
 * Learn how to [configure HTTPS-support](configure-https-with-apache.md) in Apache.
 
