@@ -14,31 +14,32 @@ Open the [AWS Management Console](https://console.aws.amazon.com/ec2/){.fa-icon 
 Use a SSH client software such as [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/){.fa-icon .fa-right-external-link-alt} for Microsoft Window and select your private SSH key to authenticate against the server (no password required). Connect to the server and make sure you are using the user name "`admin`" to log in. The access details will be displayed. This looks like the example below:
 
 ```text
-TYPO3 CMS:
+...
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
 
-  Install Tool password.............: yac867Sst8vwEOuE
-  Backend admin user / password.....: admin / pcT3qWeaJOnJVyC2
+Initial TYPO3 backend user name..........: admin
+Initial TYPO3 backend password...........: F2NiJRPAwBYRgukm
 
-MySQL Database Server:
+Initial TYPO3 Install Tool password......: 4TKWCZ67mrATbJRn
 
-  Administrator user / password.....: root / 5QGXl7LuVObv7BXk
-  TYPO3 user / password.............: typo3 / ny0OBEpZTtKSQGWA
-  TYPO3 database....................: typo3cms
+MySQL/MariaDB user name..................: typo3
+MySQL/MariaDB password...................: RRinmiB4KD1Y531G
+MySQL/MariaDB database...................: typo3cms
 
------------------------------------------------------------
+TYPO3 version............................: 11.0.0 (Application Context: Production)
+Web instance directory...................: /var/www/default/
 
-  Operating system..................: Debian GNU/Linux 8 (jessie)
-  Debian release....................: version 8.2
+Operating system.........................: Debian GNU/Linux bullseye/sid
+Debian GNU/Linux release.................: version bullseye/sid
+EC2 instance ID..........................: i-09c7c463c7b20e837
+EC2 instance type........................: t2.small
+Security Group ID........................: TYPO3 CMS 10-x-10-4-13a-AutogenByAWSMP-
 
-  Amazon AWS instance ID............: i-4264c3bb
-  Amazon AWS instance type..........: t2.micro
-  Amazon AWS Security Group ID......: TYPO3-on-AWS
+If you can not access your TYPO3 CMS instance under the following URL,
+please ensure the AWS Security Group has TCP port 80 open.
 
-  If you can not access your TYPO3 CMS instance under the following URL,
-  please ensure the AWS Security Group has TCP port 80 open.
-
-  http://123.45.67.89
-
+http://123.45.67.89
 ```
 
 Please note that the screen above is just an example. The exact output depends on the TYPO3 version you have chosen and your individual setup. It is also important to understand that passwords, user names, etc. can be changed. The details that are shown when you log in are the **initial** details that are generated when you launch the instance the first time. They are stored in the file `/home/admin/.accessdetails`.
