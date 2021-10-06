@@ -24,7 +24,7 @@ Welcome to the TYPO3-on-AWS documentation. Before you deep dive into all the exc
                             <li class="font-size-small"><a href="machine-images/typo3v8/" class="">TYPO3 version 8</a> (end-of-life)</li>
                             <li class="font-size-small"><a href="machine-images/typo3v9/" class="">TYPO3 version 9</a> (long-term support)</li>
                             <li class="font-size-small"><a href="machine-images/typo3v10/" class="">TYPO3 version 10</a> (long-term support)</li>
-                            <li class="font-size-small"><a href="machine-images/typo3v11/" class="">TYPO3 version 11</a> (sprint releases)</li>
+                            <li class="font-size-small"><a href="machine-images/typo3v11/" class="">TYPO3 version 11</a> (long-term support)</li>
                         </ul>
                     </p>
                 </div>
