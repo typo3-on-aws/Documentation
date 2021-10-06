@@ -7,23 +7,26 @@ typo3versions:
 
 ## History
 
-The TYPO3 v11.x machine images are listed at the AWS Marketplace under product ID [B08R9BXG5Y](https://aws.amazon.com/marketplace/pp/B08R9BXG5Y). We published the first machine image in December 2020.
+The TYPO3 v11.x machine images are listed at the AWS Marketplace under product ID [B08R9BXG5Y](https://aws.amazon.com/marketplace/pp/B08R9BXG5Y). We published the first machine image in December 2020. The long-term support release (TYPO3 version 11.5) was published in October 2021.
 
 ## TYPO3
 
-According to the [official release announcement](https://typo3.org/article/typo3-version-110-ready-for-liftoff){.fa-icon .fa-right-external-link-alt}, the planned highlights of TYPO3 v11 include:
+TYPO3 v11 LTS contains many enhancements, new features, and modern technologies under the hood which make this version the best TYPO3 release yet. As a long-term support release (LTS), this version will be maintained by the community for three years, until October 2024.
 
-* Link sharing and deep linking for the TYPO3 backend
-* Multi-factor authentication (MFA)
-* Improved TYPO3 backend experience
-* Improved Extbase framework
-* Improved authentication process
+According to the [official release announcement](https://typo3.org/article/typo3-v11-lts-warp-speed){.fa-icon .fa-right-external-link-alt}, the highlights of TYPO3 v11 are:
+
+* Unified editor experience
+* Advanced filelist module
+* Deep links and link sharing in the TYPO3 backend
+* Improved collaboration and Workflow features
+* Flexible and secure Multi-factor Authentication (MFA)
+* And a lot of Improvements for Developers
 
 ## Server and Services
 
 The machine image at the AWS Marketplace comes with the packages installed and configured listed below. Please note that all these components can be upgraded, removed, replaced, etc. as required.
 
-Please note that in comparison to the [other TYPO3 versions](index.md), the TYPO3 v11 machine images have a slightly different and more modern setup. The instance features a mininum of 16 GB disk space by default and the Linux swap partition is automatically created during system launch.
+Please also note that in comparison to the [other TYPO3 versions](index.md), the TYPO3 v11 machine images have a slightly different and more modern setup. The instance features a mininum of 16 GB disk space by default and the Linux swap partition is automatically created during system launch.
 
 ### Operating System
 
