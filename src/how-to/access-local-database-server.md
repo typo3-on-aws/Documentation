@@ -1,7 +1,7 @@
 ---
 title: Access Local Database Server
 # subtitle: ...
-lastupdate: 27 February 2021
+lastupdate: 13 November 2021
 typo3versions:
     - v10
     - v11
@@ -24,7 +24,7 @@ This article focuses on the following three most commonly used options:
 
 - Through the "mysql" command line tool
 - Using a TYPO3 extension
-- Using a GUI tool such as MySQL Workbench
+- Using a GUI tool on your local machine
 
 Please note that further options are available, but out of scope of this article.
 
@@ -114,21 +114,15 @@ $ composer require mehrwert/phpmyadmin
 Please verify the compatibility with the TYPO3 version you are using. At the time of writing, the extension does not support TYPO3 version 11 for example.
 
 
-## MySQL Workbench
+## Local GUI Tools
 
-The third option to access the database server directly is to use a MySQL/MariaDB client such as the [MySQL Workbench](https://www.mysql.com/products/workbench/){.fa-icon .fa-right-external-link-alt}.
+The third option to access the database server is to use a database client on your local machine.
 
-> "MySQL Workbench is a unified visual tool for database architects, developers, and DBAs.
-> MySQL Workbench provides data modeling, SQL development, and comprehensive administration tools for server configuration, user administration, backup, and much more.
-> MySQL Workbench is available on Windows, Linux and Mac OS X."
-<span style="margin-left: 0.5rem; color: #444444; font-size: 0.9rem; font-weight: bold; font-style: italic;">(MySQL Workbench website)</span>
+In theory, you could [re-configure the Security Group](configure-security-group.md) and open the TCP port 3306 to allow direct access to the database server on the EC2 instance. You would also need to update the MySQL/MariaDB server configuration to *listen* on the network interface (configuration option `bind-address`). However, this is an insecure and not recommended approach. A better way is to *tunnel* the connection through SSH.
 
-In theory, you could [re-configure the Security Group](configure-security-group.md) and open the TCP port 3306 to allow access to the local database server. You would also need to update the MySQL/MariaDB server configuration to *listen* on the network interface (configuration option `bind-address`). However, this is an insecure and not recommended approach.
+Follow the links below to read the instructions on how to configure two often used database clients:
 
-A better way is to *tunnel* the connection through SSH. MySQL Workbench (and some other database clients) support a standard TCP/IP connection over SSH to connect to your DB server on the EC2 instance.
+- "MySQL Workbench": [setup instructions](access-local-database-server-mysql-workbench.md).
+- "Navicat GUI": [setup instructions](access-local-database-server-navicat.md).
 
-The following screenshot shows the configuration screen when setting up a new connection. Note the **connection method** and adjust the details according to your setup.
-
-![](images/mysql-workbench.png){.img-screenshottt .img-fluid .mx-auto .d-block .mb-5}
-
-Please note that MySQL Workbench is only one of many MySQL/MariaDB clients.
+Please note that these are only two examples. Many more database GUI tools are available for various operating systems.
