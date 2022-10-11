@@ -7,14 +7,10 @@ typo3versions:
 
 ## History
 
-TYPO3 v12.0, the first sprint release of the TYPO3 v12 release series, is currently under review by AWS and will be available soon.
+The TYPO3 v12.x machine images are available at the [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-e7albgyp3zlso). We published the first sprint release TYPO3 v12.0 as a machine image in October 2022. The long-term support release (TYPO3 version 12.4) is scheduled to April 2023.
 
 <!--
-The TYPO3 v12.x machine images are listed at the AWS Marketplace under product ID [XXXXXXXXXX](https://aws.amazon.com/marketplace/pp/XXXXXXXXXX). We published the first sprint release TYPO3 v12.0 as a machine image in October 2022. The long-term support release (TYPO3 version 12.4) is scheduled to April 2023.
--->
-
-<!--
-The TYPO3 v12.x machine images are listed at the AWS Marketplace under product ID [XXXXXXXXXX](https://aws.amazon.com/marketplace/pp/XXXXXXXXXX). We published the first machine image in October 2022. The long-term support release (TYPO3 version 12.4) was published in October 2021.
+The TYPO3 v12.x machine images are available at the [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-e7albgyp3zlso). We published the first machine image in October 2022. The long-term support release (TYPO3 version 12.4) was published in October 2021.
 -->
 
 ## TYPO3

@@ -7,9 +7,9 @@ typo3versions:
 
 ## History
 
-The TYPO3 CMS 7.x machine images are listed at the AWS Marketplace under product ID [B00RY6O0QS](https://aws.amazon.com/marketplace/pp/B00RY6O0QS). We published the first TYPO3 v7 machine image in January 2015. Subsequent releases include all TYPO3 sprint releases including the long-term support version **TYPO3 v7 LTS** (also known as version 7.6).
+The TYPO3 v11.x machine images are available at the [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-34xndlfjcq33i). We published the first TYPO3 v7 machine image in January 2015. Subsequent releases include all TYPO3 sprint releases including the long-term support version **TYPO3 v7 LTS** (also known as version 7.6).
 
-TYPO3 CMS 7.x reached its end-of-life in December 2018. Extended support can be obtained from the [TYPO3 GmbH](https://typo3.com){.fa-icon .fa-right-external-link-alt}.
+TYPO3 CMS 7.x reached its end-of-life in December 2018. Extended support can be purchased from the [TYPO3 GmbH](https://typo3.com){.fa-icon .fa-right-external-link-alt}.
 
 ## TYPO3
 

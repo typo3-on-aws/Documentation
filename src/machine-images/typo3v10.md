@@ -7,7 +7,7 @@ typo3versions:
 
 ## History
 
-The TYPO3 CMS 10.x machine images are listed at the AWS Marketplace under product ID [B07W2ZPW5P](https://aws.amazon.com/marketplace/pp/B07W2ZPW5P). The first machine image was published in August 2019 and features [TYPO3 CMS version 10.0.0](https://get.typo3.org/release-notes/10.0.0){.fa-icon .fa-right-external-link-alt}.
+The TYPO3 v11.x machine images are available at the [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-q4ardel2bwnjq). The first machine image was published in August 2019 and features [TYPO3 CMS version 10.0.0](https://get.typo3.org/release-notes/10.0.0){.fa-icon .fa-right-external-link-alt}.
 
 ## TYPO3
 

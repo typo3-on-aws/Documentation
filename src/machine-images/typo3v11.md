@@ -7,7 +7,7 @@ typo3versions:
 
 ## History
 
-The TYPO3 v11.x machine images are listed at the AWS Marketplace under product ID [B08R9BXG5Y](https://aws.amazon.com/marketplace/pp/B08R9BXG5Y). We published the first machine image in December 2020. The long-term support release (TYPO3 version 11.5) was published in October 2021.
+The TYPO3 v11.x machine images are available at the [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-v6w33h2oatsyk). We published the first machine image in December 2020. The long-term support release (TYPO3 version 11.5) was published in October 2021.
 
 ## TYPO3
 

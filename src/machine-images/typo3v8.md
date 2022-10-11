@@ -7,9 +7,9 @@ typo3versions:
 
 ## History
 
-The TYPO3 CMS 8.x machine images are listed at the AWS Marketplace under product ID [B01DO8DF2E](https://aws.amazon.com/marketplace/pp/B01DO8DF2E). We published the first TYPO3 v8 machine image in April 2016. Subsequent releases include all TYPO3 sprint releases as well as the long-term support version **TYPO3 v8 LTS** (also known as version 8.7).
+The TYPO3 v11.x machine images are available at the [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-lcn4cb7xt3oua). We published the first TYPO3 v8 machine image in April 2016. Subsequent releases include all TYPO3 sprint releases as well as the long-term support version **TYPO3 v8 LTS** (also known as version 8.7).
 
-TYPO3 CMS 8.x reached its end-of-life in March 2020. Extended support can be obtained from the [TYPO3 GmbH](https://typo3.com){.fa-icon .fa-right-external-link-alt}.
+TYPO3 CMS 8.x reached its end-of-life in March 2020. Extended support can be purchased from the [TYPO3 GmbH](https://typo3.com){.fa-icon .fa-right-external-link-alt}.
 
 ## TYPO3
 

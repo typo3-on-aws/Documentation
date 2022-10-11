@@ -7,9 +7,9 @@ typo3versions:
 
 ## History
 
-The TYPO3 CMS 9.x machine images are listed at the AWS Marketplace under product ID [B078YZQ4DK](https://aws.amazon.com/marketplace/pp/B078YZQ4DK). The first machine image was published in 2018 and features [TYPO3 CMS version 9.0.0](https://get.typo3.org/release-notes/9.0.0){.fa-icon .fa-right-external-link-alt}. Subsequent releases include all TYPO3 sprint releases including the long-term support version **TYPO3 v9 LTS** (also known as version 9.5).
+The TYPO3 v11.x machine images are available at the [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-o6ng7g5nghjmi). The first machine image was published in 2018 and features [TYPO3 CMS version 9.0.0](https://get.typo3.org/release-notes/9.0.0){.fa-icon .fa-right-external-link-alt}. Subsequent releases include all TYPO3 sprint releases including the long-term support version **TYPO3 v9 LTS** (also known as version 9.5).
 
-TYPO3 CMS 9.x reached its end-of-life in October 2021. Extended support can be obtained from the [TYPO3 GmbH](https://typo3.com){.fa-icon .fa-right-external-link-alt}.
+TYPO3 CMS 9.x reached its end-of-life in October 2021. Extended support can be purchased from the [TYPO3 GmbH](https://typo3.com){.fa-icon .fa-right-external-link-alt}.
 
 ## TYPO3
 
