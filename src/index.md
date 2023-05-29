@@ -20,12 +20,12 @@ Welcome to the TYPO3-on-AWS documentation. Before you deep dive into all the exc
                         You find all details about each supported TYPO3-on-AWS machine image here:
                         <ul>
                             <li class="font-size-small"><del>TYPO3 version 6</del> (decommissioned)</li>
-                            <li class="font-size-small"><a href="machine-images/typo3v7/" class="">TYPO3 v7</a> (end of free support)</li>
-                            <li class="font-size-small"><a href="machine-images/typo3v8/" class="">TYPO3 v8</a> (end of free support)</li>
+                            <li class="font-size-small"><del>TYPO3 version 7</del> (decommissioned)</li>
+                            <li class="font-size-small"><del>TYPO3 version 8</del> (decommissioned)</li>
                             <li class="font-size-small"><a href="machine-images/typo3v9/" class="">TYPO3 v9</a> (end of free support)</li>
-                            <li class="font-size-small"><a href="machine-images/typo3v10/" class="">TYPO3 v10</a> (long-term support)</li>
+                            <li class="font-size-small"><a href="machine-images/typo3v10/" class="">TYPO3 v10</a> (end of free support)</li>
                             <li class="font-size-small"><a href="machine-images/typo3v11/" class="">TYPO3 v11</a> (long-term support)</li>
-                            <li class="font-size-small"><a href="machine-images/typo3v12/" class="">TYPO3 v12</a> (cutting edge)</li>
+                            <li class="font-size-small"><a href="machine-images/typo3v12/" class="">TYPO3 v12</a> (long-term support)</li>
                         </ul>
                     </p>
                 </div>
