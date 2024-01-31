@@ -15,4 +15,4 @@ Before you can launch a TYPO3-on-AWS machine image, you need an account to use A
 
 This depends on how much you use. The [TYPO3 machine images](../machine-images/index.md) are offered free of charge and they only use free and open-source software by default, so no license fees occur. However, AWS hourly usage fees apply when instances are running. You can optionally add further AWS components which AWS charge you for.
 
-See section "[Budget Planning](budget-planning.md)" for further details.
+See section "[Budget Planning](costs-and-budget-planning)" for further details.
