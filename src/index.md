@@ -26,6 +26,7 @@ Welcome to the TYPO3-on-AWS documentation. Before you deep dive into all the exc
                             <li class="font-size-small"><a href="machine-images/typo3v10/" class="">TYPO3 v10</a> (end of free support)</li>
                             <li class="font-size-small"><a href="machine-images/typo3v11/" class="">TYPO3 v11</a> (long-term support)</li>
                             <li class="font-size-small"><a href="machine-images/typo3v12/" class="">TYPO3 v12</a> (long-term support)</li>
+                            <li class="font-size-small"><a href="machine-images/typo3v13/" class="">TYPO3 v13</a> (cutting edge)</li>
                         </ul>
                     </p>
                 </div>

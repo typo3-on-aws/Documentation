@@ -14,3 +14,4 @@ The following TYPO3 versions are currently available as ready-to-use [machine im
 * TYPO3 version 10 LTS ([more details](typo3v10.md)), end of free support since April 2023.
 * TYPO3 version 11 LTS ([more details](typo3v11.md))
 * TYPO3 version 12 LTS ([more details](typo3v12.md))
+* TYPO3 version 13.x ([more details](typo3v13.md))
