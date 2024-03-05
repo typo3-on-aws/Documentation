@@ -1,27 +1,30 @@
 ---
 title: Mount an AWS S3 Bucket
-#subtitle: ...
+firstHeadline: Mount an AWS S3 Bucket
+section: How-to
+breadcrumb:
+    - label: 'How-to'
+      url: '../'
 ---
 
-## Introduction
+### Introduction
 
 This article is based on the assumption that you are using one of our TYPO3-on-AWS machines images in its default setup.
 
-The steps below describe how to access a S3 bucket just like a folder on your file system. The approach uses [s3fs](https://github.com/s3fs-fuse/s3fs-fuse){.fa-icon .fa-right-external-link-alt}, which is a FUSE (File System in User Space) based solution to mount/unmount an [Amazon S3](http://aws.amazon.com/s3/){.fa-icon .fa-right-external-link-alt} storage bucket and use system commands with S3. s3fs lets you mount a bucket as a local read/write file system and to store files/folders natively and transparently.
+The steps below describe how to access a S3 bucket just like a folder on your file system. The approach uses [s3fs](https://github.com/s3fs-fuse/s3fs-fuse), which is a FUSE (File System in User Space) based solution to mount/unmount an [Amazon S3](http://aws.amazon.com/s3/) storage bucket and use system commands with S3. s3fs lets you mount a bucket as a local read/write file system and to store files/folders natively and transparently.
 
 Please see the resources at the end of this document for further details about s3fs and Amazon S3.
 
 <hr />
 
-> ### Experimental {.warning .warning-headline .warning-icon}
+> #### Experimental {.warning .warning-headline .warning-icon}
 >
 > It is important to understand that this solution is experimental and not my recommendation for a production environment.
-> If you plan to store files decentralized, Amazon offers a simple, scalable, fully managed elastic NFS file system called [Amazon EFS](https://aws.amazon.com/efs/){.fa-icon .fa-right-external-link-alt}.
+> If you plan to store files decentralized, Amazon offers a simple, scalable, fully managed elastic NFS file system called [Amazon EFS](https://aws.amazon.com/efs/).
 
 <hr />
 
-
-## Preparation
+### Preparation
 
 Before you start, determine the version of Debian GNU/Linux you are using by executing the following command:
 
@@ -55,13 +58,13 @@ In case you are running **Debian GNU/Linux 8 ("Jessie")**, install the following
 $ apt-get install autotools-dev libcurl4-gnutls-dev libfuse-dev libssl-dev libxml2-dev pkg-config
 ```
 
-This article uses the latest version of [s3fs from GitHub](https://github.com/s3fs-fuse/s3fs-fuse){.fa-icon .fa-right-external-link-alt}. Therefore, we also need a Git client and Debian's automake package:
+This article uses the latest version of [s3fs from GitHub](https://github.com/s3fs-fuse/s3fs-fuse). Therefore, we also need a Git client and Debian's automake package:
 
 ```bash
 $ apt-get install git automake
 ```
 
-## Download and Compile s3fs
+### Download and Compile s3fs
 
 As mentioned above, let's use the latest version of s3fs from GitHub:
 
@@ -126,8 +129,7 @@ The last step is to install the binary:
 $ make install
 ```
 
-
-## Test and Usage
+### Test and Usage
 
 The following section assumes that we already have an Amazon S3 bucket created in the same availability zone as the EC2 instance. We also assume that you have the access key and the secret key handy. These three commands simply prompt you to enter the details:
 
@@ -153,7 +155,7 @@ $ s3fs ${AWS_BUCKET_NAME} /mnt/s3bucket
 
 If no errors occur, you can access your S3 bucket as a folder/hard drive now. Please find some example below.
 
-## Examples
+### Examples
 
 ```bash
 $ df -h /mnt/s3bucket
@@ -177,7 +179,7 @@ The commands above create a simple text file in the S3 bucket and lists the cont
 -rw-r--r-- 1 root root 5 Jul 4 13:22 /mnt/s3bucket/test.txt
 ```
 
-## Add a Fixed Mountpoint
+### Add a Fixed Mountpoint
 
 You can use the following command to add a fixed mountpoint to your system and let other users use the S3 bucket too:
 
@@ -192,10 +194,10 @@ Depending on your system and requirements, you possibly want to add some further
 - `readwrite_timeout=60`
 - `connect_timeout=60`
 
-Please refer to the [official documentation](https://github.com/s3fs-fuse/s3fs-fuse/wiki/Fuse-Over-Amazon){.fa-icon .fa-right-external-link-alt} for a complete overview of all available options.
+Please refer to the [official documentation](https://github.com/s3fs-fuse/s3fs-fuse/wiki/Fuse-Over-Amazon) for a complete overview of all available options.
 
-## Further Resources
+### Further Resources
 
-- [Official s3fs repository at GitHub](https://github.com/s3fs-fuse/s3fs-fuse){.fa-icon .fa-right-external-link-alt}.
-- [Deprecated repository at Google Project Hosting](https://code.google.com/p/s3fs/){.fa-icon .fa-right-external-link-alt}.
-- [Amazon S3 Product Details](http://aws.amazon.com/s3/){.fa-icon .fa-right-external-link-alt}.
+- [Official s3fs repository at GitHub](https://github.com/s3fs-fuse/s3fs-fuse).
+- [Deprecated repository at Google Project Hosting](https://code.google.com/p/s3fs/).
+- [Amazon S3 Product Details](http://aws.amazon.com/s3/).

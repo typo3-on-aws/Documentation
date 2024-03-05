@@ -1,6 +1,10 @@
 ---
 title: Costs and Budget Planning
-subtitle: Questions about server and AWS infrastructure costs.
+firstHeadline: Costs and Budget Planning
+section: Frequently Asked Questions
+breadcrumb:
+    - label: 'Frequently Asked Questions'
+      url: '../'
 ---
 
 **How much does a hosting setup in the "cloud" cost?**
@@ -23,14 +27,14 @@ Once you stopped an EC2 instance (or switched it to the *hibernation* state), no
 
 One of the great benefits of AWS is that you only pay what you use. As your usage may vary from minute-to-minute, hour-to-hour, day-to-day, month-to-month, many users find it difficulty to estimate (or predict) their AWS budget. Amazon Web Services offer several options to calculate/estimate costs:
 
-- The [TCO Calculator](https://aws.amazon.com/tco-calculator/){.fa-icon .fa-right-external-link-alt} (to calculate your total cost of ownership).
-- The [AWS Pricing Calculator](https://calculator.aws/){.fa-icon .fa-right-external-link-alt} (to calculate your monthly costs with AWS).
+- The [TCO Calculator](https://aws.amazon.com/tco-calculator/) (to calculate your total cost of ownership).
+- The [AWS Pricing Calculator](https://calculator.aws/) (to calculate your monthly costs with AWS).
 
 **What is the "AWS Free Tier" offer?**
 
 AWS Free Tier includes 750 hours of Linux and Windows `t2.micro` instances each month for one year.
-See [AWS Free Tier](https://aws.amazon.com/free/){.fa-icon .fa-right-external-link-alt} for further details.
+See [AWS Free Tier](https://aws.amazon.com/free/) for further details.
 
 **How can I save costs?**
 
-AWS offers a few options to reduce ongoing usage costs. For savings on EC2 instances you may want to consider savings plans, reserved instances, and spot instances. Refer to the [Amazon EC2 pricing page](https://aws.amazon.com/ec2/pricing/){.fa-icon .fa-right-external-link-alt} for further details.
+AWS offers a few options to reduce ongoing usage costs. For savings on EC2 instances you may want to consider savings plans, reserved instances, and spot instances. Refer to the [Amazon EC2 pricing page](https://aws.amazon.com/ec2/pricing/) for further details.

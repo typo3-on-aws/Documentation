@@ -1,17 +1,21 @@
 ---
 title: Update Debian GNU/Linux
-#subtitle: ...
+firstHeadline: Update Debian GNU/Linux
+section: How-to
+breadcrumb:
+    - label: 'How-to'
+      url: '../'
 ---
 
-## Introduction
+### Introduction
 
 This article is based on the assumption that you are using one of our TYPO3-on-AWS machines images in its default setup.
 
 Keeping the operating system of the server up-to-date is a very important task to ensure your server is and stays secure and stable. Debian GNU/Linux makes it very easy to install updates, as long as you are using a stable version of the system, follow the main principles of maintaining it properly and do not install unsupported or proprietary software packages.
 
-This document describes how to install updates manually and provides suggestions how to automate this process. However, it can not replace a reading such as "[The Debian Administrator's Handbook](http://debian-handbook.info/){.fa-icon .fa-right-external-link-alt}" (which is available for free and a fantastic resource for all users of a Debian-based distribution) or the knowledge and expertise of a system administrator.
+This document describes how to install updates manually and provides suggestions how to automate this process. However, it can not replace a reading such as "[The Debian Administrator's Handbook](http://debian-handbook.info/)" (which is available for free and a fantastic resource for all users of a Debian-based distribution) or the knowledge and expertise of a system administrator.
 
-## Manual Updates
+### Manual Updates
 
 Assuming, you have not changed the address of the Debian repository server, you only need to do two simple things:
 
@@ -34,7 +38,7 @@ If the output reads "0 upgraded, 0 newly installed, 0 to remove and 0 not upgrad
 
 Depending on the type and nature of the update, it might be required to execute further actions during the installation/update process, e.g. restart services or decide, if an updated configuration file should replace an existing one. Follow the prompts on the screen and if in doubt, choose the default or recommended action.
 
-## Automated Updates
+### Automated Updates
 
 Under certain circumstances, it might be necessary to automate the update process. A typical use case for such a scenario could be a server, which is not actively maintained by a system administrator. This strategy comes with some significant risks (e.g. if an update breaks the server or website), so you should really know, what you are doing.
 
@@ -80,7 +84,7 @@ This is all required to configure your Debian GNU/Linux system to check and inst
 
 Some updates require a restart of the server (e.g. kernel updates). The default configuration does not reboot the server automatically and it is recommended to review the update notification mails and take appropriate actions if required.
 
-## Notifications Only
+### Notifications Only
 
 A middle ground between manual and automatic updates is a notification concept: the system checks for required updates regularly and sends an email to a specific email address if updates are available.
 

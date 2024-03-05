@@ -8,7 +8,6 @@ theme:
     name: null
     custom_dir: theme/
     highlightjs: false
-    #hljs_style: github
 
 markdown_extensions:
     - attr_list
@@ -16,11 +15,15 @@ markdown_extensions:
 extra_css:
     #- https://www.typo3-on-aws.org/assets/css/website.css
     #- https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/themes/prism.min.css
+    - /_assets/css/t3rrific.css
+    #- css/t3rrific.css
+    - css/theme.css
     - css/prism.css
 
 extra_javascript:
     #- https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/components/prism-core.min.js
     #- https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/plugins/autoloader/prism-autoloader.min.js
+    - js/theme.js
     - js/prism.js
 
 extra:

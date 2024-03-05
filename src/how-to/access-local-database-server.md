@@ -1,20 +1,23 @@
 ---
 title: Access Local Database Server
-# subtitle: ...
+firstHeadline: Access Local Database Server
+section: How-to
 lastupdate: 13 November 2021
+breadcrumb:
+    - label: 'How-to'
+      url: '../'
 typo3versions:
     - v10
     - v11
 ---
 
-## Introduction
+### Introduction
 
 This article is based on the assumption that you are using a TYPO3-on-AWS machine image with TYPO3 version 10 LTS or newer installed (TYPO3 version 10.4.x).
 
 System administrators sometimes need to access the database server directly. This documents provides some basic information about possible options to achive this.
 
-
-## General Considerations
+### General Considerations
 
 Administrators have several options to access the database. This article assumes that the database server is installed on the same EC2 instance as TYPO3. This setup is the default for TYPO3-on-AWS machine images.
 
@@ -28,10 +31,9 @@ This article focuses on the following three most commonly used options:
 
 Please note that further options are available, but out of scope of this article.
 
+### The "mysql" Command Line Tool
 
-## The "mysql" Command Line Tool
-
-### Standard Access
+#### Standard Access
 
 Once you launched your TYPO3-on-AWS EC2 instance, you can access it using a SSH connection (see [access the server](../getting-started/access.md) for further details). Log in as user `admin` and note the access details that are displayed. Locate the **database access credentials** which consist of a user name and password. For example:
 
@@ -45,7 +47,7 @@ MySQL/MariaDB database...................: typo3cms
 
 The access credentials are randomly generated the first time the TYPO3-on-AWS system is launched. In the example above, the TYPO3 database user name is `typo3` and the password is `RRinmiB4KD1Y531G`. Also note the database name `typo3cms` as you need these three information in the next steps.
 
-> ### Possibly Outdated Information {.info .info-headline .info-icon}
+> #### Possibly Outdated Information {.info .info-headline .info-icon}
 >
 > Please note that you can change the database access details if required.
 > If you do so, the credentials that are shown when you log in are possibly not longer up-to-date.
@@ -79,8 +81,7 @@ Enter `quit` to exit the command line tool:
 MariaDB [typo3cms]> quit
 ```
 
-
-### Administrator Access
+#### Administrator Access
 
 Some specific database maintenance tasks require **administrator privileges**. The creation of new database users is a typical example. To access the local database server with these higher privileges, enter the following command on the command line prompt:
 
@@ -88,21 +89,19 @@ Some specific database maintenance tasks require **administrator privileges**. T
 $ sudo mysql
 ```
 
+### TYPO3 Extensions
 
-## TYPO3 Extensions
+Another option to access the local database server directly is to use a web-based tool such as [phpMyAdmin](https://www.phpmyadmin.net/) or [Adminer](https://www.adminer.org/) for example. Both tools are also available as TYPO3 extensions.
 
-Another option to access the local database server directly is to use a web-based tool such as [phpMyAdmin](https://www.phpmyadmin.net/){.fa-icon .fa-right-external-link-alt} or [Adminer](https://www.adminer.org/){.fa-icon .fa-right-external-link-alt} for example. Both tools are also available as TYPO3 extensions.
-
-
-> ### Not for Production {.warning .warning-headline .warning-icon}
+> #### Not for Production {.warning .warning-headline .warning-icon}
 >
 > Please note that extensions that provide access to low-level functions often bypass TYPO3's security model.
 > The official advice by TYPO3 security experts is **not to install** these kind of extensions on a production system.
 
 The following two extensions are well known and sometimes used:
 
-- "phpMyAdmin" (extension key: `phpmyadmin`), see [TYPO3 Extension Repository](https://extensions.typo3.org/extension/phpmyadmin){.fa-icon .fa-right-external-link-alt}.
-- "Adminer" (extension key: `t3adminer`), see [TYPO3 Extension Repository](https://extensions.typo3.org/extension/t3adminer){.fa-icon .fa-right-external-link-alt}.
+- "phpMyAdmin" (extension key: `phpmyadmin`), see [TYPO3 Extension Repository](https://extensions.typo3.org/extension/phpmyadmin).
+- "Adminer" (extension key: `t3adminer`), see [TYPO3 Extension Repository](https://extensions.typo3.org/extension/t3adminer).
 
 You can easily install the TYPO3 extension "phpMyAdmin" on a TYPO3-on-AWS instance using Composer (adjust the file system path appropriately as required):
 
@@ -113,8 +112,7 @@ $ composer require mehrwert/phpmyadmin
 
 Please verify the compatibility with the TYPO3 version you are using. At the time of writing, the extension does not support TYPO3 version 11 for example.
 
-
-## Local GUI Tools
+### Local GUI Tools
 
 The third option to access the database server is to use a database client on your local machine.
 

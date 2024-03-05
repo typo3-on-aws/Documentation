@@ -1,6 +1,10 @@
 ---
 title: Install MariaDB Server
-# subtitle: ...
+firstHeadline: Install MariaDB Server
+section: How-to
+breadcrumb:
+    - label: 'How-to'
+      url: '../'
 typo3versions:
     - v10
 ---

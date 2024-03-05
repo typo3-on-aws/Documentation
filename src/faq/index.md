@@ -1,6 +1,6 @@
 ---
 title: Frequently Asked Questions
-#subtitle: ...
+#firstHeadline: Subtitle
 ---
 
 Please choose one of following categories your question could fit into:

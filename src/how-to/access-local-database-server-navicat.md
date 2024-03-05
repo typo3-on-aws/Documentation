@@ -1,35 +1,38 @@
 ---
 title: Local DB Client "Navicat"
-# subtitle: ...
+firstHeadline: Local DB Client "Navicat"
+section: How-to
+breadcrumb:
+    - label: 'How-to'
+      url: '../'
 lastupdate: 13 November 2021
 typo3versions:
     - v10
     - v11
 ---
 
-## Introduction
+### Introduction
 
-This article describes the steps on how to configure [Navicat](https://www.navicat.com){.fa-icon .fa-right-external-link-alt} to access the database. Database clients installed on your local machine typically offer an easy-to-use graphical user interface (GUI) that makes it easy to manage the database and its contents.
+This article describes the steps on how to configure [Navicat](https://www.navicat.com) to access the database. Database clients installed on your local machine typically offer an easy-to-use graphical user interface (GUI) that makes it easy to manage the database and its contents.
 
 We assume that you are using a TYPO3-on-AWS machine image with the MySQL/MariaDB database server running on the same machine. It is also possible to operate a decentralized database server on another EC2 instance or to use an AWS service such as [Amazon Aurora](set-up-typo3-and-amazon-aurora.md). Although the options of accessing these types of databases are similar to the ways described below, a detailed description is out of scope of this article.
 
+### Navicat
 
-## Navicat
-
-You can use [Navicat](https://www.navicat.com){.fa-icon .fa-right-external-link-alt} to access the database server that runs on the EC2 instance. Although, the following instructions are based on **Navicat Premium 15**, you can set up other software versions in the same or very similar way.
+You can use [Navicat](https://www.navicat.com) to access the database server that runs on the EC2 instance. Although, the following instructions are based on **Navicat Premium 15**, you can set up other software versions in the same or very similar way.
 
 > "Navicat Premium is a database development tool that allows you to simultaneously connect to MySQL, MariaDB, MongoDB, SQL Server, Oracle, PostgreSQL, and SQLite databases from a single application. [...]. You can quickly and easily build, manage and maintain your databases."
 <span style="margin-left: 0.5rem; color: #444444; font-size: 0.9rem; font-weight: bold; font-style: italic;">(Navicat website)</span>
 
-## Configuration
+### Configuration
 
 Navicat (and some other database clients) support a standard TCP/IP connection over SSH to connect to your DB server on the EC2 instance. This approach is called a *SSH tunneling*.
 
-Download Navicat from the [official website](https://www.navicat.com){.fa-icon .fa-right-external-link-alt} and install/run the software.
+Download Navicat from the [official website](https://www.navicat.com) and install/run the software.
 
 <hr />
 
-## Step 1
+### Step 1
 
 ![](images/navicat-1.png){.img-fluid .mx-auto .d-block .mb-5}
 
@@ -37,7 +40,7 @@ Create a new **MySQL** or **MariaDB** connection. Do not select the menu item *A
 
 <hr />
 
-## Step 2
+### Step 2
 
 ![](images/navicat-2.png){.img-fluid .mx-auto .d-block .mb-5}
 
@@ -45,7 +48,7 @@ Provide the database access details in the tab *General* as shown in the screens
 
 <hr />
 
-## Step 3
+### Step 3
 
 ![](images/navicat-3.png){.img-fluid .mx-auto .d-block .mb-5}
 
@@ -55,7 +58,7 @@ You can now test the connection and/or save the configuration by clicking on the
 
 <hr />
 
-## Step 4
+### Step 4
 
 ![](images/navicat-4.png){.img-fluid .mx-auto .d-block .mb-5}
 
@@ -63,7 +66,7 @@ The new connection is shown in the list. Double click the connection name or sel
 
 <hr />
 
-## Step 5
+### Step 5
 
 ![](images/navicat-5.png){.img-fluid .mx-auto .d-block .mb-5}
 
@@ -71,7 +74,7 @@ Assuming, you did not configure a password to use your private key (this is the 
 
 <hr />
 
-## Step 6
+### Step 6
 
 ![](images/navicat-6.png){.img-fluid .mx-auto .d-block .mb-5}
 
@@ -79,7 +82,7 @@ Navicat lists all available databases. Double click the list entry "typo3cms" or
 
 <hr />
 
-## Step 7
+### Step 7
 
 ![](images/navicat-7.png){.img-fluid .mx-auto .d-block .mb-5}
 
@@ -87,7 +90,6 @@ You can now access, manipulate, manage, export the data and the tables of the TY
 
 <hr />
 
-
-## Alternatives
+### Alternatives
 
 - [MySQL Workbench](access-local-database-server-mysql-workbench.md).

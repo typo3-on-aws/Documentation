@@ -1,6 +1,10 @@
 ---
 title: Articles
-#subtitle: ...
+#firstHeadline: Getting Started
+#section: Getting Started
+#breadcrumb:
+#    - label: 'Articles'
+#      url: '../'
 ---
 
 ...

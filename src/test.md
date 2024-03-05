@@ -1,16 +1,19 @@
 ---
 title: Test
-subtitle: This is a subtitle
-lastupdate: 23 March 2019
-toc: true
+firstHeadline: First Headline
+lastupdate: 5 March 2024
+breadcrumb:
+    - label: 'Item 1'
+      url: 'index.md'
+    - label: 'Item 2'
+      url: 'index.md'
 typo3versions:
-    - v7
-    - v8
-    - v9
     - v10
+    - v11
+    - v12
 ---
 
-For full documentation visit [mkdocs.org](https://mkdocs.org){.fa-icon .fa-right-external-link-alt}.
+For full documentation visit [mkdocs.org](https://mkdocs.org).
 
 ## Commands
 
@@ -23,13 +26,13 @@ For full documentation visit [mkdocs.org](https://mkdocs.org){.fa-icon .fa-right
 
 Lorem ipsum dolor sit amet, consectetur **bold** adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco [link](https://example.com) nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa *italic* qui officia deserunt mollit anim id est laborum.
 
-You can also <span class="strikethrough">strike</span> a word, but this requires HTML (not ideal): `<span class="strikethrough">...</span>`.
+You can also <del class="text-decoration-line-through">strike</del> a word, but this requires HTML (not ideal): `<del class="text-decoration-line-through">...</del>`.
 
 ## Links
 
 * [external link](http://example.com)
-* [external link](http://example.com){.fa-icon .fa-right-external-link-alt}
-* [glossar](../miscellaneous/glossary){.fa-icon .fa-right-glossary}
+* [external link](http://example.com)
+* [glossar](../miscellaneous/glossary)
 * [internal link](test.md)
 
 ## Source Code
@@ -50,7 +53,7 @@ class MyController
 
 > ### Possibly Outdated Information {.info .info-headline .info-icon}
 >
-> This article was published in March 2018 at [typo3.com](https://typo3.com/blog/typo3-on-amazon-web-services-part-2){.fa-icon .fa-right-external-link-alt}.
+> This article was published in March 2018 at [typo3.com](https://typo3.com/blog/typo3-on-amazon-web-services-part-2).
 > While the majority of the contents is still valid, please be adviced that some details are possibly slightly outdated today.
 
 <hr />

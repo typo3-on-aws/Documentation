@@ -1,276 +1,72 @@
 /*
  * t3rrific.com
- * (c)2019 by Michael Schams <schams.net>
+ * (c)2019-2024 by Michael Schams <schams.net> | <t3rrific.com>
  */
 
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-
-body#typo3-on-aws.documentation {
-    /* font-family: 'Muli', sans-serif; */
+body#typo3-on-aws {
 }
 
-body#typo3-on-aws.documentation .active a {
-	color: red;
+body#typo3-on-aws .content {
+}
+
+body#typo3-on-aws h2.firstHeadline {
+	font-size: 2.2rem;
 	font-weight: bold;
-}
-
-body#typo3-on-aws.documentation .pt-5, body#typo3-on-aws.documentation .py-5 { padding-top: 5rem !important; }
-body#typo3-on-aws.documentation .pr-5, body#typo3-on-aws.documentation .px-5 { padding-right: 5rem !important; }
-body#typo3-on-aws.documentation .pb-5, body#typo3-on-aws.documentation .py-5 { padding-bottom: 5rem !important; }
-body#typo3-on-aws.documentation .pl-5, body#typo3-on-aws.documentation .px-5 { padding-left: 5rem !important; }
-
-body#typo3-on-aws.documentation div#toc nav.navbar {
-	padding-top: 4rem;
-	z-index: 1029;
-	max-height: 7rem;
-	overflow: hidden;
-}
-
-body#typo3-on-aws.documentation div#toc nav.navbar ul.navbar-nav {
-	margin-left: 0 !important;
-}
-
-@media screen and (max-width: 1200px) {
-	body#typo3-on-aws.documentation div#toc {
-		display: none;
-	}
-	body#typo3-on-aws.documentation div.content {
-		margin-top: 6rem !important;
-	}
-}
-
-body#typo3-on-aws.documentation div#toc nav.navbar ul.navbar-nav li:first-child a {
-	padding-left: 0;
-}
-
-body#typo3-on-aws.documentation div.content {
-	/* margin-top: 8.4rem; */
-	font-size: 1.2rem;
-}
-
-body#typo3-on-aws.documentation div.content a[href]:hover {
-	color: blue;
-	text-decoration: none;
-}
-
-body#typo3-on-aws.documentation div.content div.card-container a[href].btn:hover {
-	color: white;
-}
-
-body#typo3-on-aws.documentation div.content h1 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 2.4rem;
-	color: #555555;
-}
-
-body#typo3-on-aws.documentation div.content h2 {
-	font-size: 1.6rem;
-    letter-spacing: -0.06rem;
-}
-
-body#typo3-on-aws.documentation div.content h2.subtitle {
-	font-size: 1.4rem;
-	font-weight: bold;
-	color: #888888;
-	letter-spacing: -0.06rem;
-	margin-top: 0;
 	margin-bottom: 1rem;
 }
 
-body#typo3-on-aws.documentation div.content h3 {
-	font-size: 1.2rem;
-    letter-spacing: -0.06rem;
+body#typo3-on-aws h2,
+body#typo3-on-aws h3,
+body#typo3-on-aws h4 {
+	font-weight: bold;
 }
 
-body#typo3-on-aws.documentation div.content p.last-update {
-	font-size: 80%;
-	font-weight: 400;
-	color: #6c757d !important;
-	/* letter-spacing: -0.1rem; */
-	margin-top: -0.6rem;
-	margin-bottom: 1rem;
-}
+/* -------------------------------------------------------------------------- */
+/* tables */
 
-body#typo3-on-aws.documentation div.content ul.mini-list {
-	margin: 0;
-	padding: 0;
-}
-
-body#typo3-on-aws.documentation div.content ul.mini-list li {
-	list-style: none;
-}
-
-body#typo3-on-aws.documentation div.content ul li {
-	list-style: square;
-}
-
-body#typo3-on-aws.documentation div.content table {
+body#typo3-on-aws .content table {
 	width: 100%;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
 
-body#typo3-on-aws.documentation div.content table tr {
+body#typo3-on-aws .content table tr {
 }
 
-body#typo3-on-aws.documentation div.content table thead tr {
+body#typo3-on-aws .content table thead tr {
 	background: #ffffff;
 	border-bottom: 1px solid black;
 }
 
-body#typo3-on-aws.documentation div.content table tbody tr:nth-child(odd) {
+body#typo3-on-aws .content table tbody tr:nth-child(odd) {
 	background: #f0f0f0;
 }
 
-body#typo3-on-aws.documentation div.content table tbody tr:nth-child(even) {
+body#typo3-on-aws .content table tbody tr:nth-child(even) {
 	background: #ffffff;
 }
 
-body#typo3-on-aws.documentation div.content table thead td,
-body#typo3-on-aws.documentation div.content table tbody td {
+body#typo3-on-aws .content table thead td,
+body#typo3-on-aws .content table tbody td {
 	padding-right: 0.6rem;
 	width: 1%;
 }
 
-body#typo3-on-aws.documentation div.content pre {
-	padding: 0.4rem;
-	font-size: 0.9rem;
-	margin-top: 1.2rem;
-	margin-bottom: 1.2rem;
-}
-
-body#typo3-on-aws.documentation div.content code {
-	font-size: 90%;
-	color: #666666;
-	letter-spacing: -0.06rem;
-	background-color: #f0f0f0;
-	padding: 0 0.4rem;
-}
-
-body#typo3-on-aws.documentation div.content pre > code[class*="language-"] {
-	/* font-size: unset; */
-	color: unset;
-	letter-spacing: unset;
-	background-color: unset;
-	padding: 0;
-}
-
-/*
-body#typo3-on-aws.documentation div.content code.test {
-	background-color: red !important;
-}
-*/
-
-body#typo3-on-aws.documentation div.content hr {
-	margin: 1rem 0;
-}
-
-body#typo3-on-aws.documentation div.content blockquote {
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-	padding-left: 2rem;
-	color: #888888;
-	font-style: italic;
-}
-
-body#typo3-on-aws.documentation div.content span.strikethrough {
-	text-decoration: line-through;
-	color: #888888;
-}
-
-/*
-body#typo3-on-aws.documentation div.content .external-link-icon {
-	color: #666666;
-	font-size: 0.8rem;
-	padding-right: 0.4rem;
-}
-*/
-
-body#typo3-on-aws.documentation div.content img.img-screenshot {
-	margin: 4rem 0;
-	width: 80%;
-}
-
-/*
-.fa-icon::before {
-	display: inline-block;
-	font-style: normal;
-	font-variant: normal;
-	text-rendering: auto;
-	-webkit-font-smoothing: antialiased;
-}
-*/
-
-/* external-link-alt */
-body#typo3-on-aws.documentation div.content .fa-right-external-link-alt::after {
-	font-family: "Font Awesome 5 Free";
-	font-weight: 900;
-	font-size: 0.8rem;
-	padding-left: 0.4rem;
-	color: #808080;
-	content: "\f35d";
-}
-
-/* link */
-body#typo3-on-aws.documentation div.content .fa-right-link::after {
-	font-family: "Font Awesome 5 Free";
-	font-weight: 900;
-	font-size: 0.8rem;
-	padding-left: 0.4rem;
-	color: #808080;
-	content: "\f0c1";
-}
-
-/* question-circle */
-body#typo3-on-aws.documentation div.content .fa-right-glossary::after {
-	font-family: "Font Awesome 5 Free";
-	font-weight: 900;
-	font-size: 0.8rem;
-	padding-left: 0.4rem;
-	color: #808080;
-	content: "\f059";
-}
-
-body#typo3-on-aws.documentation div.content .info.info-headline,
-body#typo3-on-aws.documentation div.content .warning.warning-headline {
-	font-style: normal;
-	color: #505050;
-}
-
-body#typo3-on-aws.documentation div.content .info.info-icon::before,
-body#typo3-on-aws.documentation div.content .warning.warning-icon::before {
-	font-family: "Font Awesome 5 Free";
-	font-weight: 900;
-	font-size: 1.4rem;
-	font-style: normal;
-	padding-right: 0.8rem;
-}
-
-/* lightbulb */
-body#typo3-on-aws.documentation div.content .info.info-icon::before {
-	color: #06f;
-	content: "\f0eb";
-}
-
-/* exclamation-triangle */
-body#typo3-on-aws.documentation div.content .warning.warning-icon::before {
-	color: #dd0000;
-	content: "\f071";
-}
-
 /* -------------------------------------------------------------------------- */
+/* specific elements */
 
-body#typo3-on-aws.documentation .footer {
-	color: #cccccc;
+body#typo3-on-aws .content ul li {
+	list-style: square;
 }
 
-body#typo3-on-aws.documentation .footer strong {
-	color: white;
+body#typo3-on-aws code[class*="language-"],
+body#typo3-on-aws pre[class*="language-"] {
+	font-size: 0.9rem;
 }
 
-body#typo3-on-aws.documentation .footer a {
-	color: #d0d0d0;
-	font-weight: bold;
+body#typo3-on-aws .content blockquote {
+	margin-left: 2rem;
+	font-style: italic;
 }
 
 /* -------------------------------------------------------------------------- */
