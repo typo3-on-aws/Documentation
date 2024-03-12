@@ -9,18 +9,6 @@ body#typo3-on-aws {
 body#typo3-on-aws .content {
 }
 
-body#typo3-on-aws h2.firstHeadline {
-	font-size: 2.2rem;
-	font-weight: bold;
-	margin-bottom: 1rem;
-}
-
-body#typo3-on-aws h2,
-body#typo3-on-aws h3,
-body#typo3-on-aws h4 {
-	font-weight: bold;
-}
-
 /* -------------------------------------------------------------------------- */
 /* tables */
 
