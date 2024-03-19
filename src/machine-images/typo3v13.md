@@ -11,7 +11,7 @@ typo3versions:
 
 ### History
 
-The TYPO3 v13.x machine images are available at the [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-thrhrvzmzdmi4). We published the first sprint release TYPO3 v13.0 as a machine image in January 2024. The long-term support release (TYPO3 version 13.4) is scheduled to October 2023.
+The TYPO3 v13.x machine images are available at the [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-pekrkzzsz424e). We published the first sprint release TYPO3 v13.0 as a machine image in January 2024. The long-term support release (TYPO3 version 13.4) is scheduled to October 2023.
 
 ### TYPO3
 
